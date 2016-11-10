@@ -40,7 +40,7 @@ export class EndpointsService {
     private cacheEndpoint(endpoints: Endpoints, name: string): Endpoint {
         this.endpoints = endpoints;
 
-        console.log("Endpoints : " + this.endpoints.links['self']);
+        console.log("Endpoints found at: " + this.endpoints.links['self']);
 
         for (let ep of this.endpoints.endpoints) {
             this.map[ep.name] = ep;

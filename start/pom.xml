@@ -179,7 +179,7 @@
                                     <goal>copy-resources</goal>
                                 </goals>
                                 <configuration>
-                                    <outputDirectory>${basedir}/src/main/static</outputDirectory>
+                                    <outputDirectory>../web-application/src/main/static</outputDirectory>
                                     <overwrite>true</overwrite>
                                     <resources>
                                         <resource>
